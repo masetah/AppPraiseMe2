@@ -24,8 +24,7 @@ class CreateAppraisals < ActiveRecord::Migration[6.0]
       t.string :judgement_description
       t.integer :interpersonal_relations_score
       t.string :interpersonal_relations_description
+      t.string :appraisal_name
     end
   end
-  add_column :appraisals, :appraisal_name, :string
-end
 end
