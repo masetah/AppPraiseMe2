@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "bcrypt": "^3.0.6",
+    "bcrypt": "^5.0.0",
     "listen": "^1.0.1",
     "pg": "^7.12.1",
     "puma": "^4.0.0",
